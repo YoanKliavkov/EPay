@@ -7,7 +7,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class Merchant {
 
-	private  String merchantId;
+	private  int merchantId;
 	private  String fullName;
 	private String fullNameEn;
 	private  String webName;
